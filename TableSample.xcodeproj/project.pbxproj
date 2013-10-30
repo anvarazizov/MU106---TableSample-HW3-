@@ -14,13 +14,15 @@
 		1172A93F181EDA2B00B7FA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A93E181EDA2B00B7FA1C /* main.m */; };
 		1172A943181EDA2B00B7FA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A942181EDA2B00B7FA1C /* AppDelegate.m */; };
 		1172A946181EDA2B00B7FA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1172A944181EDA2B00B7FA1C /* Main.storyboard */; };
-		1172A949181EDA2B00B7FA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A948181EDA2B00B7FA1C /* ViewController.m */; };
 		1172A94B181EDA2B00B7FA1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1172A94A181EDA2B00B7FA1C /* Images.xcassets */; };
 		1172A952181EDA2B00B7FA1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172A951181EDA2B00B7FA1C /* XCTest.framework */; };
 		1172A953181EDA2B00B7FA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172A932181EDA2B00B7FA1C /* Foundation.framework */; };
 		1172A954181EDA2B00B7FA1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1172A936181EDA2B00B7FA1C /* UIKit.framework */; };
 		1172A95C181EDA2B00B7FA1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1172A95A181EDA2B00B7FA1C /* InfoPlist.strings */; };
 		1172A95E181EDA2B00B7FA1C /* TableSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A95D181EDA2B00B7FA1C /* TableSampleTests.m */; };
+		1172A96C181EDC0200B7FA1C /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A96B181EDC0200B7FA1C /* RoutesViewController.m */; };
+		1172A96F181EEADE00B7FA1C /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A96E181EEADE00B7FA1C /* MyCell.m */; };
+		11DBA6F91821C1FF00675685 /* AllCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DBA6F81821C1FF00675685 /* AllCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		1172A941181EDA2B00B7FA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1172A942181EDA2B00B7FA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1172A945181EDA2B00B7FA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1172A947181EDA2B00B7FA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1172A948181EDA2B00B7FA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1172A94A181EDA2B00B7FA1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1172A950181EDA2B00B7FA1C /* TableSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1172A951181EDA2B00B7FA1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1172A959181EDA2B00B7FA1C /* TableSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableSampleTests-Info.plist"; sourceTree = "<group>"; };
 		1172A95B181EDA2B00B7FA1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1172A95D181EDA2B00B7FA1C /* TableSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableSampleTests.m; sourceTree = "<group>"; };
+		1172A96A181EDC0200B7FA1C /* RoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutesViewController.h; path = ../RoutesViewController.h; sourceTree = "<group>"; };
+		1172A96B181EDC0200B7FA1C /* RoutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutesViewController.m; path = ../RoutesViewController.m; sourceTree = "<group>"; };
+		1172A96D181EEADE00B7FA1C /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCell.h; path = UI/MyCell.h; sourceTree = "<group>"; };
+		1172A96E181EEADE00B7FA1C /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCell.m; path = UI/MyCell.m; sourceTree = "<group>"; };
+		11DBA6F71821C1FF00675685 /* AllCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllCell.h; path = UI/AllCell.h; sourceTree = "<group>"; };
+		11DBA6F81821C1FF00675685 /* AllCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllCell.m; path = UI/AllCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,15 @@
 		1172A938181EDA2B00B7FA1C /* TableSample */ = {
 			isa = PBXGroup;
 			children = (
+				1172A96A181EDC0200B7FA1C /* RoutesViewController.h */,
+				1172A96B181EDC0200B7FA1C /* RoutesViewController.m */,
 				1172A941181EDA2B00B7FA1C /* AppDelegate.h */,
 				1172A942181EDA2B00B7FA1C /* AppDelegate.m */,
 				1172A944181EDA2B00B7FA1C /* Main.storyboard */,
-				1172A947181EDA2B00B7FA1C /* ViewController.h */,
-				1172A948181EDA2B00B7FA1C /* ViewController.m */,
+				1172A96D181EEADE00B7FA1C /* MyCell.h */,
+				1172A96E181EEADE00B7FA1C /* MyCell.m */,
+				11DBA6F71821C1FF00675685 /* AllCell.h */,
+				11DBA6F81821C1FF00675685 /* AllCell.m */,
 				1172A94A181EDA2B00B7FA1C /* Images.xcassets */,
 				1172A939181EDA2B00B7FA1C /* Supporting Files */,
 			);
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1172A949181EDA2B00B7FA1C /* ViewController.m in Sources */,
 				1172A943181EDA2B00B7FA1C /* AppDelegate.m in Sources */,
+				11DBA6F91821C1FF00675685 /* AllCell.m in Sources */,
+				1172A96C181EDC0200B7FA1C /* RoutesViewController.m in Sources */,
+				1172A96F181EEADE00B7FA1C /* MyCell.m in Sources */,
 				1172A93F181EDA2B00B7FA1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				1172A963181EDA2B00B7FA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1172A964181EDA2B00B7FA1C /* Build configuration list for PBXNativeTarget "TableSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				1172A966181EDA2B00B7FA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

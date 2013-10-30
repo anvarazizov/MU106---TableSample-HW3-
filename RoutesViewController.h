@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RoutesViewController.h
 //  TableSample
 //
 //  Created by Anvar Azizov on 2013-10-28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RoutesViewController : UITableViewController
 
 @end
